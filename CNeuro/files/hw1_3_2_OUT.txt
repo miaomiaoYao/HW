@@ -1,0 +1,60 @@
+
+   Summary motif results
+   =====================
+mfinder Version 1.20
+
+MOTIF FINDER RESULTS:
+
+	Network name: hw1_3_1.txt
+	Network type: Directed
+	Num of Nodes: 277 Num of Edges: 2105
+	Num of Nodes with edges: 277
+	Maximal out degree (out-hub) : 44
+	Maximal in degree (in-hub) : 39
+	Roots num: 21 Leaves num: 14
+	Single Edges num: 1731 Mutual Edges num: 187
+
+	Motif size searched  2
+	Total number of 2-node subgraphs : 1918
+	Number of random networks generated : 100
+	Random networks generation method: Switches
+	Num of Switches range: 100.0-200.0, Success switches Ratio:0.828+-0.00
+
+The following motifs were found:
+
+Criteria taken : Nreal Zscore > 2.00
+                 Pval ignored (due to small number of random networks)
+                 Mfactor > 1.10
+                 Uniqueness >= 4
+
+
+
+	Full list includes 1 motifs
+MOTIF	NREAL	NRAND		NREAL	NREAL	UNIQ	CREAL
+ID		STATS		ZSCORE	PVAL	VAL	[MILI]	
+
+6	187	54.5+-6.1	21.57	0.000	60	97.50
+
+0 1 
+1 0 
+
+
+
+
+Full list of subgraphs size 2 ids:
+
+	( Total num of different subgraphs size 2 is : 2 )
+
+MOTIF	NREAL	NRAND		NREAL	NREAL	CREAL	UNIQ
+ID		STATS		ZSCORE	PVAL	[MILI]	
+2	1731	1996.0+-12.3	-21.57	1.000	902.50	103
+
+6	187	54.5+-6.1	21.57	0.000	97.50	60
+
+
+
+ (Application total runtime was:   1.08 minutes).
+
+ (Real network processing runtime was:    0.0 seconds.)
+
+ (Single Random network processing runtime was:    0.7 seconds.)
